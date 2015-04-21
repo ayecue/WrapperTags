@@ -15,7 +15,11 @@
  * @license    http://www.pimcore.org/license     New BSD License
  */
 
-class Document_Tag_Areablockplus extends Document_Tag_Areablock {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Areablockplus extends DocumentTag\Areablock {
     public function getType() {
         return "areablockplus";
     }

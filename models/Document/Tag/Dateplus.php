@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Dateplus extends Document_Tag_Date {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Dateplus extends DocumentTag\Date {
 	public function getType() {
-        return "dateplus";
-    }
+		return "dateplus";
+	}
 }

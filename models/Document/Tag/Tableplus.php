@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Tableplus extends Document_Tag_Table {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Tableplus extends DocumentTag\Table {
 	public function getType() {
-        return "tableplus";
-    }
+		return "tableplus";
+	}
 }

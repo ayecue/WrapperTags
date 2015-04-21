@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Checkboxplus extends Document_Tag_Checkbox {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Checkboxplus extends DocumentTag\Checkbox {
 	public function getType() {
-        return "checkboxplus";
-    }
+		return "checkboxplus";
+	}
 }

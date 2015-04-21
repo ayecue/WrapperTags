@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Areaplus extends Document_Tag_Area {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Areaplus extends DocumentTag\Area {
 	public function getType() {
-        return "areaplus";
-    }
+		return "areaplus";
+	}
 }

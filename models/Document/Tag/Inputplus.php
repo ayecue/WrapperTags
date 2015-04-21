@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Inputplus extends Document_Tag_Input {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Inputplus extends DocumentTag\Input {
 	public function getType() {
-        return "inputplus";
-    }
+		return "inputplus";
+	}
 }

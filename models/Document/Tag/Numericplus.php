@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Numericplus extends Document_Tag_Numeric {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Numericplus extends DocumentTag\Numeric {
 	public function getType() {
-        return "numericplus";
-    }
+		return "numericplus";
+	}
 }

@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Pdfplus extends Document_Tag_Pdf {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Pdfplus extends DocumentTag\Pdf {
 	public function getType(){
-        return "pdfplus";
-    }
+		return "pdfplus";
+	}
 }

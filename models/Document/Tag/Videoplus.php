@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Videoplus extends Document_Tag_Video {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Videoplus extends DocumentTag\Video {
 	public function getType(){
-        return "videoplus";
-    }
+		return "videoplus";
+	}
 }

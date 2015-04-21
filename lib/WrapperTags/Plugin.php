@@ -1,6 +1,10 @@
 <?php
 
-class WrapperTags_Plugin extends Pimcore_API_Plugin_Abstract implements Pimcore_API_Plugin_Interface {
+namespace WrapperTags;
+
+use Pimcore\API\Plugin as PluginLib;
+
+class Plugin extends PluginLib\AbstractPlugin implements PluginLib\PluginInterface {
     public static function install(){
 		return "Are you sure Plugin successfully installed.";
 	}

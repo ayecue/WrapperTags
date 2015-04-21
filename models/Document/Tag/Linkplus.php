@@ -1,7 +1,15 @@
 <?php
 
-class Document_Tag_Linkplus extends Document_Tag_Link {
-	public function plainFrontend($html) {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Linkplus extends DocumentTag\Link {
+    public function getType() {
+        return "linkplus";
+    }
+
+    public function plainFrontend($html) {
         $url = $this->getHref();
 
         if (strlen($url) > 0) {
@@ -46,8 +54,4 @@ class Document_Tag_Linkplus extends Document_Tag_Link {
 
         return "";
     }
-
-	public function getType() {
-        return "linkplus";
-	}
 }

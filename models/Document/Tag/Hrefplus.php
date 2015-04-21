@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Hrefplus extends Document_Tag_Href {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Hrefplus extends DocumentTag\Href {
 	public function getType() {
-        return "hrefplus";
-    }
+		return "hrefplus";
+	}
 }

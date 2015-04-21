@@ -1,7 +1,11 @@
 <?php
 
-class Document_Tag_Textareaplus extends Document_Tag_Textarea {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Textareaplus extends DocumentTag\Textarea {
 	public function getType() {
-        return "textareaplus";
-    }
+		return "textareaplus";
+	}
 }

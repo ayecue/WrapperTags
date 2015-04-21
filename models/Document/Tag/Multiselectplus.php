@@ -1,6 +1,10 @@
 <?php
 
-class Document_Tag_Multiselectplus extends Document_Tag_Multiselect {
+namespace Document\Tag;
+
+use Document\Tag as DocumentTag;
+
+class Multiselectplus extends DocumentTag\Multiselect {
 	public function getType() {
         return "multiselectplus";
     }

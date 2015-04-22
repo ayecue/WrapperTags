@@ -15,11 +15,11 @@
  * @license    http://www.pimcore.org/license     New BSD License
  */
 
-namespace Document\Tag;
+namespace Pimcore\Model\Document\Tag;
 
-use Document\Tag as DocumentTag;
+use Pimcore\Model as PimcoreModel;
 
-class Areablockplus extends DocumentTag\Areablock {
+class Areablockplus extends PimcoreModel\Document\Tag\Areablock {
     public function getType() {
         return "areablockplus";
     }

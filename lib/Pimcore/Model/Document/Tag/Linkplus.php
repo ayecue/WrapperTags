@@ -1,10 +1,10 @@
 <?php
 
-namespace Document\Tag;
+namespace Pimcore\Model\Document\Tag;
 
-use Document\Tag as DocumentTag;
+use Pimcore\Model as PimcoreModel;
 
-class Linkplus extends DocumentTag\Link {
+class Linkplus extends PimcoreModel\Document\Tag\Link {
     public function getType() {
         return "linkplus";
     }

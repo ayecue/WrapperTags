@@ -1,10 +1,10 @@
 <?php
 
-namespace Document\Tag;
+namespace Pimcore\Model\Document\Tag;
 
-use Document\Tag as DocumentTag;
+use Pimcore\Model as PimcoreModel;
 
-class Wysiwygplus extends DocumentTag\Wysiwyg {
+class Wysiwygplus extends PimcoreModel\Document\Tag\Wysiwyg {
     public function getType() {
         return "wysiwygplus";
     }
